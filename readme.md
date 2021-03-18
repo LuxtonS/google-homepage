@@ -1,0 +1,1 @@
+This project will have me re-create the Google search bar page. It will be a good test of styling web sheets and using Web Dev tools built-in too chrome. 

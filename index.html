@@ -1,0 +1,84 @@
+<style>
+#google-logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left:8em;
+   }
+
+.navbar-right {
+    float:right;
+   
+}
+label {
+    margin:0.2em;
+}
+
+#language {
+    text-align: center;
+}
+
+footer {
+    position:fixed;
+    width: 100%;
+    bottom:0px;
+    background-color: rgba(245, 243, 243, 0.966);
+}
+
+.search-bar {
+    display: block;
+    text-align: center;
+    width:40em;
+    max-width: 500px;
+    min-width: 75px;
+    flex-grow: 1;
+    margin:auto;
+    border-radius: 20px;
+   
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0.25em;
+    margin-top: 2em;
+}
+</style>
+<!DOCTYPE html>
+<body>
+<header class="navbar">
+    <label class="navbar-left">About</label>
+    <label class="navbar-left">Store</label>
+    <label class="navbar-right">Gmail</label>
+    <label class="navbar-right">Images</label>
+</header>
+
+<div id="google-logo">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+</div>
+<div id="search-bar">
+    <input class="search-bar" type="text">
+
+</div>
+<div class="buttons">
+    <button type="button" id="search">Search</button>
+    <button type="button" id="Lucky">I'm Feeling Lucky</button>
+</div>
+<div id="language">
+    <p>Google offered in: Francais</p>
+</div>
+
+<footer>
+    <h3 id="country">Canada</h3>
+    <hr> 
+    <div class="extra-links">
+        <label id="advertising">Advertising</label>
+        <label id="business">Business</label>
+        <label id="how-search-works">How Search works</label>
+        <label id="privacy">Privacy</label>
+        <label id="terms">Terms</label>
+        <label id="settings">Settings</label>
+    </div>
+
+
+</footer>
+</body>
